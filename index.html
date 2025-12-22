@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-callout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--
+    Images are from https://unsplash.com/
+    -->
+
+</head>
+<body>
+
+    <nav id="scrolling_navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Portfólio pessoal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Perfil</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Experiência profissional</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#travel">Iniciativas</a>
+              </li>
+
+              
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contate-me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div data-bs-spy="scroll" data-bs-target="#scrolling_navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+
+        <section class="min-vh-100 d-flex flex-wrap align-content-center" id="home" style="background-image: url('image/home.jpg'); background-size: cover;">
+          <div class="container d-flex align-items-center py-5">
+              <div class="col text-center bg-light m-4 p-4 text-dark bg-opacity-50 rounded-5 border border-2 border-white">
+                <img src="image/imagem_do_marcos.jpeg" class="img-fluid col-lg-2 col-sm-6 col-xs-6 mb-4 image-custom"> 
+                <p class="display-2 text-secondary mb-3">Olá, sou Marcos</p>
+                <p class="text-secondary fs-5 mb-6">Aqui você encontrará mais sobre: meu perfil,  minhas iniciativas, compartilhamento de ideias entre outros.</p>
+                <a class="btn btn-success btn-lg active rounded-pill mb-3" href="#about">Perfil</a>
+                <a class="btn btn-light btn-lg rounded-pill mb-3" href="#contact">Contate-me</a>
+            </div>
+          </div>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="container py-5" id="about">
+            <div class="text-center py-5">
+                <h2 class="fw-bolder">Perfil</h2>
+                <p class="fs-5">Profissional voltado para atendimento, setor público e áreas de TI (software e hardware). Em formação pela Gran Faculdade em Tecnologia da Informação e formado em Contabilidade pela Universidade da Amazônia. Características: boa comunicação, atenção ao detalhe, disposto, organizado, aberto a ideias e à troca de insights.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" >
+                    <img class="img-fluid rounded-5" src="image/imagem_marcos_1.png">
+                </div>
+                <div class="col-lg-7 offset-lg-1">
+                    <p class="lh-lg mb-6"></p>
+                    <h3 class="fw-bold fs-4">A soma das seguintes habilidades totalizam 100% do profisisonal que sou.</h3>
+                    
+                    <p class="mb-0" >Disposição:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-greenyellow" style="width: 30%;">30%</div>
+                    </div>
+                    <p class="mb-0" >Comunicação:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 25%">25%</div>
+                    </div>
+                    <p class="mb-0" >Organização:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 20%;">20%</div>
+                    </div>
+                    <p class="mb-0" >IA:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 15%;">15%</div>
+                    </div>
+                    <p class="mb-0" >Programação:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-green" style="width: 10%;">10%</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="py-5" id="blog">
+            <div class="container">
+                <div class="text-center py-5">
+                    <h2 class="fw-bolder">Experiência profissional:</h2>
+                    <p class="fs-5">Minha experiência profissional inclui: rotinas administrativas, atendimento ao cliente e análise de dados.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image/predio_companhia_docas_do_para.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center py-2">Companhia docas do Pará</h5>
+                                <p>Permaneci por 2 anos como estagiário no prédio administrativo da CDP no setor de contas a pagar,  fiz uso do software senior ERP para prestação de contas de notas fiscais relacionadas a serviços portuários, aquisições e controle de gastos do orgão, fiz o uso do SEI! para controle de documentos e trâmites de processos internos.</p>
+                                <a href="blog-page.html" class="btn btn-light d-flex justify-content-center">Clique para ler a rotina do trabalho...</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image/nippobraz_filial.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center py-2">Nippobraz</h5>
+                                <p>Permaneci por 1 ano e 4 meses na nippobraz onde melhorei minhas habilidades de comunicação, atenção e digitação fortemente, o atendimento ao cliente somando a anotação de pedidos de acordo com a preferência da clientela, logística da entrega e pagamento me trouxeram a o controle emocional para lidar com situações complexas que exigiam uma rápida tomada de decisão, conheci o sistema SGV .</p>
+                                <a href="blog-page nippobraz.html" class="btn btn-light d-flex justify-content-center">Clique para ler a rotina do trabalho...</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image/crt02_escritorio.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center py-2">Conselho Regional dos Técnicos da 2º Região</h5>
+                                <p>Atualmente trabalho no conselho como auxiliar administrativo voltado para o atendimento aos profissionais explicando e tirando dúvidas sobre o funcionamento dos procedimentos internos como: solicitação, interrupção e regularização de registro, para os mesmo trabalharem nos conformes do coselho de classe </p>
+                                <a href="blog-page crt_02.html" class="btn btn-light d-flex justify-content-center">Clique para ler a rotina do trabalho......</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="travel">
+            <div class="container">
+                <div class="text-white text-center py-5">
+                    <h2 class="fw-bolder">Iniciativas</h2>
+                    <p class="fs-5">Desenvolvidas para otimizar o fluxo de trabalho, ampliar o conhecimento técnico e organizacional, promover a troca de experiências e aplicar de forma prática as competências adquiridas..</p>
+                </div>
+
+                <div class="row pb-r4" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                    
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/imagem_miniatura_para_projeto_cadastro_no_tecnico_que_faz.png" data-target="#carouselExample" data-slide-to="0">
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/miniatura_como_responder_documentos_de_fiscalizacao.png" data-target="#carouselExample" data-slide-to="1">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/miniatura_montagem _e_desmontagem_de_notebook_samsung_np350xaa.png" data-target="#carouselExample" data-slide-to="2">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/miniatura_de_video_do_defeito_no_flat_do_asus_x451ca.png" data-target="#carouselExample" data-slide-to="3">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/miniatura_do_video_funionamento_do_detr.png" data-target="#carouselExample" data-slide-to="4">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/miniatura_de_video_de_utilizacao_do_ml_studio.png" data-target="#carouselExample" data-slide-to="5">
+                    </div>
+                  </div>
+                  
+                  <!-- Modal -->
+                  <!-- 
+                  This part is straight out of Bootstrap docs. Just a carousel inside a modal.
+                  -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                              </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="false">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/AczOCnxntLc?si=_aC1N1k4fIjuUt2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/aC8W8AJOv9M?si=IYD9UaZKhEM98puv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/V-WfQ-yAq_M?si=HfLxnEUzq6l5dVGG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/sm__CVB51qs?si=uz-GU45CIiTgxGCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <<iframe width="560" height="315" src="https://www.youtube.com/embed/K6ETroce1rY?si=EnN1JJDK8qeCDoqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/9c5wjW3H8oA?si=SO3Xw3w7MpJELhDx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/K6ETroce1rY?si=EnN1JJDK8qeCDoqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExample" type="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample" type="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+            
+        </section>
+
+        
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="contact">
+            <div class="container">
+                <div class="text-white text-center py-5">
+                    <h2 class="fw-bolder">Contate-me</h2>
+                    <p class="fs-5">Agradeço profundamente pelo tempo dedicado para conhecer melhor meu perfil, experiência profissional e iniciativas que desenvolvi. Estou à disposição para qualquer informação adicional ou esclarecimento que possa ser necessário. Se tiver interesse, disponibilize informações, contato e deixe uma mensagem, e entrarei em contato com você o mais breve possível. Agradeço novamente pela atenção e espero poder contribuir com o seu time.</p>
+                </div>
+
+                <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+                    <form id="myForm" action="#" class="text-white fs-6">
+                        <div class="mb-3">
+                            <label class="form-label text-white">Nome e sobrenome</label>
+                            <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-white">Email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-white">Assunto</label>
+                            <input type="text" name="subject" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-white">Mensagem</label>
+                            <textarea type="text" name="message" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="d-grid gap-2 col-lg-4 col-md-4 mx-auto">
+                            <button class="btn btn-success btn-lg rounded-pill">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-light">
+            <div class="container">
+                <p class="copyright-text text-center fs-8 py-4 mb-0">Portfólio<a class="text-dark" href="#" target="_blank"></a></p>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script>
+        function switchStyle() {
+        if (document.getElementById('styleSwitch').checked) {
+            document.getElementById('gallery').classList.add("custom");
+            document.getElementById('exampleModal').classList.add("custom");
+        } else {
+            document.getElementById('gallery').classList.remove("custom");
+            document.getElementById('exampleModal').classList.remove("custom");
+        }
+        };
+        
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "PbjuaD5HmpwHF8c22",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+    window.onload = function() {
+        document.getElementById("myForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            emailjs.sendForm("service_8a6pn2w", "template_854kz38", this)
+                .then(() => {
+                    alert('📧 Email enviado com sucesso!');
+                    window.location.href = "index.html"; // ou o caminho da sua página, (error) => {
+                    alert('⚠️ Ocorreu um erro ao enviar o e-mail.');
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+    
+    </script>
+y
+   
+</body>
+</html>
