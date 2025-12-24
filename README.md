@@ -35,7 +35,7 @@ Perfeito para quem quer mostrar seu trabalho, confesso que é muito eficiente pa
 - ✅ **Bootstrap 5** — Responsividade, componentes e estilização rápida  
 - ✅ **JavaScript** — Funcionalidades interativas (formulários, carrosséis)  
 - ✅ **CSS Flexbox & Grid** — Layouts modernos e adaptáveis  
-- ✅ **Qwenai quew3-v1-4b** — Agente de IA, copiloto 
+- ✅ **Qwenai qwenai-v1-4b** — Agente de IA, copiloto 
 - ✅ **Emailjs** — Para envio de emails, recebimento e confirmação de contato automático. 
 
 
