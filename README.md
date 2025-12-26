@@ -114,7 +114,7 @@ Se você gostou, me segue nas redes sociais — eu adoro receber feedbacks e aju
 
 
 <details open>
-<summary>Instrução que para a reprodução do iframe no modal 26/12//2025.</summary>
+<summary> ⬅️ Clique aqui para recolher as informações - Instrução que para a reprodução do iframe no modal 26/12/2025.</summary>
 
 **Nessa alteração eu planejava fazer com que os vídeos parassem de ser reproduzidos se for clicado fora ou no botão close do modal, linha 272 - 289 no index.**
 
