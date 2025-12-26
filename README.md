@@ -109,7 +109,7 @@ Se você gostou, me segue nas redes sociais — eu adoro receber feedbacks e aju
 
 ---
 
-## Explicações das alterações feitas 
+## 📝 Explicações das alterações feitas 
 
 
 
